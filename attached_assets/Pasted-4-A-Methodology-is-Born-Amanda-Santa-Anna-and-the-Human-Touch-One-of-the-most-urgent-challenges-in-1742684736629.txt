@@ -1,0 +1,32 @@
+4. A Methodology is Born: Amanda Santa’Anna and the Human Touch
+One of the most urgent challenges in AI filmmaking today is this: Who’s in charge? Is the model the director? The prompt engineer? The dataset? Or does creative authority still reside with the human — the storyteller who sees what the machine cannot?
+
+To answer that, we needed a methodology. That’s why we brought in Brazilian-Luxembourgish filmmaker Amanda Santa’Anna to lead the artistic development of our Sora experiment. Amanda understood the stakes: she is a storyteller who, like me, works at the intersection of migration, memory, and hybrid identity. But she also came prepared to wrestle with the machine.
+
+Her task was deceptively complex: to take the historically grounded scenes in my script bible Minette — including a quiet emotional exchange between a Luxembourgish nurse and an American soldier — and translate them into prompts Sora could understand, while maintaining visual continuity, historical texture, and character integrity.
+
+The result wasn’t just a video. It was a method.
+
+Amanda documented the process in a detailed report, outlining the challenges and tactical workarounds she had to employ. From testing different prompt formats to including specific instructions like “keep the same appearance of the characters,” she discovered how fragile character consistency still is in Sora’s current iteration. Even the smallest prompt adjustment could generate an entirely new character. And yet, through iterative testing and hands-on editing, she stitched together a final teaser that was emotionally coherent and visually grounded.
+
+What she did — and what we collectively accomplished — was something that’s missing from most AI experiments: intentional authorship.
+
+5. What We Achieved — and What We Didn’t
+Let’s be clear: the final teaser is not perfect. The lighting occasionally flickers. The characters’ faces shift subtly from shot to shot. The American flag on a pack of chewing gum failed to render properly — a small but telling detail in a story about cultural diplomacy and wartime intimacy.
+
+And yet, the emotional resonance is there. The pacing, the tone, the performances — however synthetic — evoke something very real. You can feel the weight of history in the silence between two people. You can sense the distance they’re both trying to bridge. It’s not spectacle. It’s story.
+
+What we learned is that AI tools like Sora are not yet ready for high-consistency cinematic production. But they are ready for serious creative exploration — especially when placed in the hands of storytellers who care about history, emotion, and ethics.
+
+Even more importantly, our experiment showed that you can maintain creative control, even when the machine is generating the visuals. But it requires a new mindset — one that fuses screenwriting, prompt design, historical research, and human empathy.
+
+6. Ethical Innovation: A Responsibility, Not a Brand
+Too often, “ethical AI” is thrown around like a marketing label. But for those of us working with real histories — real people, real places, real pain — it has to mean more.
+
+Ethical innovation in AI filmmaking means asking: Who is being represented? Who is being erased? What assumptions is the machine making? Whose memories are we projecting onto these synthetic surfaces?
+
+In our case, we worked with a story rooted in letters from Luxembourgish families. We knew we were representing people’s ancestors, communities, traumas, and hopes. That meant we couldn’t just generate “pretty footage.” We had to be stewards of memory — even as we experimented with the tools of the future.
+
+We made deliberate choices: we didn’t use celebrity likenesses. We didn’t stylize the past into fantasy. We worked from a script that had already been historically validated. And when the visuals didn’t align with the emotional truth, we went back and adjusted — because storytelling isn’t just about what looks good. It’s about what feels right.
+
+This is the work. It’s slower than pure prompt-play. It’s more rigorous. But it’s also more human.

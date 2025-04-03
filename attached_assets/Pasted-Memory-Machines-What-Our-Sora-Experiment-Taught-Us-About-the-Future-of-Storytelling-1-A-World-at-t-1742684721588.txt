@@ -1,0 +1,28 @@
+Memory Machines: What Our Sora Experiment Taught Us About the Future of Storytelling
+1. A World at the Cusp of Reinvention
+We are living through a rupture — not a gentle one. The arrival of generative artificial intelligence is not just a technological shift; it is a civilizational one. It is altering how we work, what we trust, how we imagine, and — perhaps most importantly — how we remember. At a time of geopolitical fracture, algorithmic acceleration, and widespread public disorientation, history itself is being reconfigured in real-time.
+
+In this context, I didn’t want to be passive. I didn’t want to wait for others to define the aesthetic, the ethics, or the narrative standards of AI-driven storytelling. So I chose to build — with intention. The result was an experiment: a short film teaser made with OpenAI’s unreleased text-to-video model, Sora, based on my historical script bible Minette, and guided by a formal methodology crafted by Brazilian-Luxembourgish filmmaker Amanda Santa’Anna.
+
+This project wasn’t about novelty. It wasn’t about AI as spectacle. It was about asking the harder question: Can artificial intelligence help us tell meaningful, historically rooted stories — ethically, coherently, and with emotional depth?
+
+In testing that question, we positioned ourselves — quietly but firmly — at the frontier of AI cinema. And in doing so, we learned far more than we expected.
+
+2. Why This Story, and Why Now?
+Minette is not a story that would normally get a Netflix greenlight.
+
+Set in the final weeks of World War I, it follows the emotional and cultural entanglement between Luxembourgish women and American soldiers stationed in Europe. The narrative is intimate, historically researched, and deeply human. It deals with gender, power, migration, memory, and the fragile space between trauma and hope. It’s a story rooted in real letters, real places, and forgotten fragments of 20th-century life.
+
+And that’s exactly why it mattered.
+
+In an era where AI is capable of conjuring dragon battles and exploding cities, we chose to do something more difficult: we asked the machine to sit quietly with us in the fall of 1918 and visualize a moment of tenderness. A hand offering chewing gum. A smile between strangers. A future uncertain, but shared.
+
+The vast majority of AI-generated video content right now is ahistorical, decontextualized, and spectacle-driven. We wanted to go in the opposite direction. To see if these tools could serve stories that have weight — stories that matter. And in doing so, we hoped to prototype a path for others who care about memory, not just media.
+
+3. The State of AI Filmmaking in 2025: Chaos and Potential
+Right now, AI filmmaking is at once exhilarating and chaotic. OpenAI’s Sora has cracked open a door that was, until recently, bolted shut. The ability to generate minute-long, photorealistic video from simple prompts has captivated creators around the world. And yet, for all its promise, the space is still immature. There are no industry-wide methodologies. Character consistency is fragile. Ethical considerations are often an afterthought.
+
+What’s worse, many of the most viral examples of AI video are deeply disconnected from meaning. They are demo reels, not stories. The prompt is the product. And for those of us who come from documentary, historical, or diasporic traditions, that’s a red flag.
+
+At Connaissance Films, the production company I founded, we view storytelling not as a commodity but as a cultural act. Our work is rooted in history, migration, and identity. That’s why, when we got early access to Sora, we didn’t just want to make something cool — we wanted to make something that asked questions. Something that respected its subjects. Something that pointed toward a future of ethical AI media — where the tools serve the story, not the other way around.
+

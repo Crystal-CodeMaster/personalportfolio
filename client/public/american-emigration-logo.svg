@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="#f8f9fa" stroke="#dc2626" stroke-width="3"/>
+  <g transform="translate(15, 35)">
+    <text font-family="Arial, sans-serif" font-weight="bold" font-size="10" fill="#111827">
+      <tspan x="0" y="0">AMERICAN</tspan>
+      <tspan x="0" y="15">EMIGRATION</tspan>
+      <tspan x="15" y="30">.COM</tspan>
+    </text>
+  </g>
+  <!-- Stylized flag representation -->
+  <g transform="translate(25, 20)">
+    <rect x="0" y="0" width="50" height="5" fill="#dc2626"/>
+    <rect x="0" y="7" width="50" height="5" fill="#dc2626"/>
+    <rect x="0" y="14" width="50" height="5" fill="#dc2626"/>
+  </g>
+  <!-- Arrow indicating movement/emigration -->
+  <path d="M25,75 L75,75 M65,65 L75,75 L65,85" stroke="#dc2626" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

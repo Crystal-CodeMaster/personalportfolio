@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-['Montserrat'] antialiased bg-background text-foreground;
+    letter-spacing: 0.015em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-['Playfair_Display'] tracking-normal;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold;
+    line-height: 1.1;
+  }
+  
+  h2 {
+    @apply text-3xl sm:text-4xl font-bold;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    @apply text-2xl sm:text-3xl font-semibold;
+    line-height: 1.3;
+  }
+  
+  h4 {
+    @apply text-xl sm:text-2xl font-semibold;
+    line-height: 1.3;
+  }
+  
+  p {
+    @apply leading-relaxed;
+    line-height: 1.8; /* Increased line height for better readability */
+    margin-bottom: 1.2em;
+  }
+  
+  /* Add styles for specialty headings */
+  .heading-specialty {
+    @apply font-['Libre_Baskerville'] italic;
+    letter-spacing: 0.02em;
+  }
+  
+  /* Add styles for quotes and testimonials */
+  blockquote {
+    @apply font-['Libre_Baskerville'] italic pl-6 border-l-4 border-primary my-6 text-gray-700;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+  }
+  
+  section {
+    @apply py-20 md:py-28;
+  }
+  
+  :root {
+    /* Base colors */
+    --color-darkgray: #343a40;
+    --color-lightgray: #f8f9fa;
+    --warm-beige: #f5f0e8;
+    --warm-gray: #f0ebe3;
+    
+    /* Primary blue and accent orange */
+    --primary-blue: #2d88cf; /* Base blue color */
+    --primary-blue-dark: #1a6bac; /* Darker variant */
+    --primary-blue-light: #5ba7dc; /* Lighter variant */
+    --accent-orange: #e67e22; /* Base orange accent */
+    --accent-orange-dark: #d35400; /* Darker variant */
+    --accent-orange-light: #f39c12; /* Lighter variant */
+    
+    /* Specialty area colors */
+    --specialty-data: #17a2b8; /* Data Analysis - teal blue */
+    --specialty-story: #e67e22; /* Storytelling - warm orange */
+    --specialty-global: #5e60ce; /* Global mobility - purple blue */
+    
+    /* Supporting palette */
+    --supporting-green: #28a745; /* Success/positive messaging */
+    --supporting-red: #dc3545; /* Warning/negative messaging */
+    --supporting-yellow: #ffc107; /* Attention/alert messaging */
+    
+    /* Background variants */
+    --bg-light-blue: #e9f2f9; /* Light blue background */
+    --bg-light-orange: #fdf2e9; /* Light orange background */
+    --bg-light-purple: #eeeeff; /* Light purple background */
+    
+    /* Animation timing */
+    --transition-standard: all 0.3s ease-in-out;
+    --transition-slow: all 0.5s ease-in-out;
+    --transition-fast: all 0.2s ease-in-out;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl;
+  }
+  
+  .section-heading {
+    @apply text-3xl sm:text-4xl font-serif font-bold mb-4;
+  }
+  
+  .section-subheading {
+    @apply text-xl text-gray-600 max-w-3xl mx-auto mb-12;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-full font-medium transition-all hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-primary rounded-full border border-primary font-medium transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all hover:shadow-xl;
+  }
+}
+
+@layer utilities {
+  /* Text colors */
+  .text-darkgray {
+    color: var(--color-darkgray);
+  }
+  
+  .text-accent {
+    color: var(--accent-orange);
+  }
+  
+  .text-primary-blue {
+    color: var(--primary-blue);
+  }
+  
+  .text-primary-blue-dark {
+    color: var(--primary-blue-dark);
+  }
+  
+  .text-primary-blue-light {
+    color: var(--primary-blue-light);
+  }
+  
+  .text-accent-orange {
+    color: var(--accent-orange);
+  }
+  
+  .text-accent-orange-dark {
+    color: var(--accent-orange-dark);
+  }
+  
+  .text-accent-orange-light {
+    color: var(--accent-orange-light);
+  }
+  
+  /* Specialty text colors */
+  .text-specialty-data {
+    color: var(--specialty-data);
+  }
+  
+  .text-specialty-story {
+    color: var(--specialty-story);
+  }
+  
+  .text-specialty-global {
+    color: var(--specialty-global);
+  }
+  
+  /* Background colors */
+  .bg-lightgray {
+    background-color: var(--color-lightgray);
+  }
+  
+  .bg-warm-beige {
+    background-color: var(--warm-beige);
+  }
+  
+  .bg-warm-gray {
+    background-color: var(--warm-gray);
+  }
+  
+  .bg-accent {
+    background-color: var(--accent-orange);
+  }
+  
+  .bg-primary-blue {
+    background-color: var(--primary-blue);
+  }
+  
+  .bg-primary-blue-dark {
+    background-color: var(--primary-blue-dark);
+  }
+  
+  .bg-primary-blue-light {
+    background-color: var(--primary-blue-light);
+  }
+  
+  .bg-accent-orange {
+    background-color: var(--accent-orange);
+  }
+  
+  .bg-accent-orange-dark {
+    background-color: var(--accent-orange-dark);
+  }
+  
+  .bg-accent-orange-light {
+    background-color: var(--accent-orange-light);
+  }
+  
+  /* Specialty backgrounds */
+  .bg-specialty-data {
+    background-color: var(--specialty-data);
+  }
+  
+  .bg-specialty-story {
+    background-color: var(--specialty-story);
+  }
+  
+  .bg-specialty-global {
+    background-color: var(--specialty-global);
+  }
+  
+  /* Light background variants */
+  .bg-light-blue {
+    background-color: var(--bg-light-blue);
+  }
+  
+  .bg-light-orange {
+    background-color: var(--bg-light-orange);
+  }
+  
+  .bg-light-purple {
+    background-color: var(--bg-light-purple);
+  }
+  
+  /* Transitions */
+  .transition-standard {
+    transition: var(--transition-standard);
+  }
+  
+  .transition-slow {
+    transition: var(--transition-slow);
+  }
+  
+  .transition-fast {
+    transition: var(--transition-fast);
+  }
+  
+  /* Border colors */
+  .border-primary-blue {
+    border-color: var(--primary-blue);
+  }
+  
+  .border-accent-orange {
+    border-color: var(--accent-orange);
+  }
+  
+  .border-specialty-data {
+    border-color: var(--specialty-data);
+  }
+  
+  .border-specialty-story {
+    border-color: var(--specialty-story);
+  }
+  
+  .border-specialty-global {
+    border-color: var(--specialty-global);
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+    @apply scroll-pt-20; /* Offset for fixed header */
+  }
+  
+  /* Video Aspect Ratio - use @tailwindcss/aspect-ratio plugin instead */
+  .aspect-w-16 {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+  .aspect-w-16 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Image optimization */
+  .img-responsive {
+    @apply w-full h-auto object-cover;
+  }
+  
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-in-out forwards;
+  }
+  
+  /* Nav link effect */
+  .nav-link {
+    @apply relative hover:text-primary transition-colors;
+  }
+  
+  .nav-link::after {
+    @apply content-[''] absolute w-0 h-0.5 bottom-[-2px] left-0 bg-primary transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
