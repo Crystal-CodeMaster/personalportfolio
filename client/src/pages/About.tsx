@@ -7,6 +7,7 @@ import { Calendar, Globe, Users } from "lucide-react";
 const About = () => {
   const { language } = useLanguage();
   
+  
   // Translations for About page
   const translations = {
     en: {
