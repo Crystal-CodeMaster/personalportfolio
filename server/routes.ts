@@ -3,6 +3,7 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { z } from "zod";
 import * as nodemailer from "nodemailer";
+import React from "React";
 
 // Contact form schema
 const contactFormSchema = z.object({
